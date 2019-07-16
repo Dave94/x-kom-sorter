@@ -1,7 +1,7 @@
 # X-kom Sorter
 This is a chrome extension which adds additional sort options for discount campaigns on x-kom.pl
 
-##Supported browsers:
+## Supported browsers:
 - Chrome
 - Opera
 
