@@ -1,21 +1,15 @@
 {
-    "name": "x-kom.pl sorter",
+    "name": "X-kom.pl Sorter",
     "version": "1.0",
-    "description": "Sorts x-kom products in additional orders",
-    "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": true
-    },
+    "description": "Additional sort orders for x-kom products",
     "manifest_version": 2,
     "permissions": [
         "<all_urls>",
-        "webRequest",
-        "activeTab",
-        "declarativeContent",
-        "storage"
+        "activeTab"
     ],
+    "browser_action": {
+    "default_icon": "images/x-kom32.png"
+    },
     "content_scripts": [
    {
      "matches": ["https://*.x-kom.pl/*"],
