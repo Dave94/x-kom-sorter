@@ -16,9 +16,9 @@ function my_logic() {
 		</select>');
 
 	// main item, prev price, current price, price header, discount
-	var classnames1 = ["sc-1amw43v-0 jWHjNR tw1g4l-0 daYEVc sc-bdVaJa fdVMCg", "sc-132mw3r-2 jkShJe sc-132mw3r-0 kflyQm", "sc-132mw3r-3 eCMOrC sc-132mw3r-0 kflyQm", "sc-132mw3r-1 ajjrv", "circle-text margin sc-132mw3r-3 eCMOrC sc-132mw3r-0 kflyQm"];
-	var classnames2 = ["sc-1amw43v-0 jWHjNR tw1g4l-0 daYEVc sc-bdVaJa fZgNo", "sc-132mw3r-2 ggXgVi sc-132mw3r-0 dOToIf", "sc-132mw3r-3 eCMOrC sc-132mw3r-0 dOToIf", "sc-1we1kip-11 jYagzQ sc-132mw3r-1 hzVdjR", "circle-text sc-132mw3r-3 eCMOrC sc-132mw3r-0 dOToIf"];
-	var classnames3 = ["sc-1amw43v-0 jWHjNR tw1g4l-0 daYEVc sc-bdVaJa eoRAda", "sc-132mw3r-2 jqLYoe sc-132mw3r-0 dOToIf", "sc-132mw3r-3 dQmTsM sc-132mw3r-0 dOToIf", "c2h67b-13 geZvbC sc-132mw3r-1 hzVdjR", "circle-text sc-132mw3r-3 dQmTsM sc-132mw3r-0 dOToIf"];
+	var classnames1 = ["sc-1amw43v-0 iRVoYg tw1g4l-0 daYEVc sc-bdVaJa fdVMCg", "sc-132mw3r-2 epwwAv sc-132mw3r-0 kqOoTv", "sc-132mw3r-3 eCMOrC sc-132mw3r-0 kqOoTv", "sc-132mw3r-1 ajjrv", "circle-text margin sc-132mw3r-3 eCMOrC sc-132mw3r-0 kqOoTv"];
+	var classnames2 = ["sc-1amw43v-0 iRVoYg tw1g4l-0 daYEVc sc-bdVaJa fZgNo", "sc-132mw3r-2 bBrDYQ sc-132mw3r-0 jkcTHF", "sc-132mw3r-3 eCMOrC sc-132mw3r-0 jkcTHF", "sc-1we1kip-11 igTnIo sc-132mw3r-1 hzVdjR", "circle-text sc-132mw3r-3 eCMOrC sc-132mw3r-0 jkcTHF"];
+	var classnames3 = ["sc-1amw43v-0 iRVoYg tw1g4l-0 daYEVc sc-bdVaJa eoRAda", "sc-132mw3r-2 lfClvx sc-132mw3r-0 jkcTHF", "sc-132mw3r-3 dQmTsM sc-132mw3r-0 jkcTHF", "c2h67b-12 bqKgQI sc-132mw3r-1 hzVdjR", "circle-text c2h67b-12 bqKgQI sc-132mw3r-1 hzVdjR"];
 
 	my_sort.onchange = function(element) {
 		var classnames = [];
