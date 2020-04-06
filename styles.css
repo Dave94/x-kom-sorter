@@ -4,7 +4,7 @@
 
 .circle-text {
   width: 40px;
-  padding 10px;
+  /*padding: 10px;*/
 }
 .circle-text:after {
   content: "";
@@ -26,3 +26,22 @@
   text-align: center;
   color: white;
 }
+
+#my_refresh{
+  transition: transform 1s;
+  width: 32px;
+  opacity: 0.6;
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/refresh.png');   
+}
+
+@-moz-document url-prefix() {
+    #my_refresh {
+  background-image: url('images/refresh.png');}
+}
+
+#my_refresh:hover {
+  opacity: 0.5;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+#my_refresh

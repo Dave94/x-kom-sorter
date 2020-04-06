@@ -22,5 +22,8 @@
         "32": "images/x-kom32.png",
         "48": "images/x-kom48.png",
         "128": "images/x-kom128.png"
-    }
+    },
+    "web_accessible_resources": [
+    "images/refresh.png"
+    ]
 }
